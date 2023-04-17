@@ -151,9 +151,9 @@ This tool has been successfully compiled and run on the following operating syst
 Linux/Unix/Mac OSX(Intel):  
 
 ```
-$ wget -O ccsrch.tar.gz https://github.com/adamcaudill/ccsrch/tarball/master
-$ tar -xvzf ccsrch.tar.gz 
-$ cd adamcaudill-ccsrch-<rev>/
+$ wget -O pklot-ccsrch.tar.gz https://github.com/PKLOT/adamcaudill-ccsrch/tarball/master
+$ tar -xvzf pklot-ccsrch.tar.gz 
+$ cd PKLOT-adamcaudill-ccsrch-<rev>/
 $ make all
 ```
 
