@@ -1,5 +1,5 @@
 #!/bin/sh
-output=`readlink -f $(dirname $0)`/`hostname`-ccsrch-detail.log
+output=`readlink -f $(dirname $0)`/`hostname`-ccsrch-detail-`date +%Y%m%d%H%M%S`.log
 echo "CCSRCH result detail will output in file: $output"
 
 for i in $(ls -d /*/)
