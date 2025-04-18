@@ -5,7 +5,7 @@ echo "CCSRCH result detail will output in file: $output"
 for i in $(ls -d /*/)
 do
 
-  if [ "$i" == "/dev/" ] || [ "$i" == "/proc/" ] || [ "$i" == "/sys/" ]; then
+  if [ "$i" = "/dev/" ] || [ "$i" = "/proc/" ] || [ "$i" = "/sys/" ]; then
     continue
   fi
 
